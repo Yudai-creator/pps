@@ -10,7 +10,7 @@ const TestimonialCard = (props: {
   const { author_name, author_slug, author_image, testimonial } = props;
 
   return (
-    <div className="flex h-auto w-1/3 shadow-2xl my-4  flex-col">
+    <div className="flex h-auto sm:w-1/3 w-full shadow-2xl my-4  flex-col">
       <div className="bg-yellow-300 items-center h-1 w-2/6"></div>
       <div className="h-32 bg-[#FBF6EA] flex space-x-3 px-7 items-center justify-start">
         <Image

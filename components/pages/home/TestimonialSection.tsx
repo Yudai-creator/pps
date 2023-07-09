@@ -41,7 +41,7 @@ const TestimonialSection = () => {
         <div className="col-span-1"></div>
 
         <div className="col-span-9">
-          <div className=" flex  justify-evenly   mb-5  gap-4    mt-7 lg:mt-14  ">
+          <div className=" flex w-full sm:flex-row flex-col  justify-evenly   mb-5  gap-4    mt-7 lg:mt-14  ">
             {testimonials.map((testimonial: any, index: number) => (
               <TestimonialCard
                 author_name={testimonial.author_name}
