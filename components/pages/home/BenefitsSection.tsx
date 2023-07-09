@@ -47,6 +47,7 @@ const BenefitsSection = () => {
         {benefits.map((feature: any, index: number) => (
           <BenefitCard
             index={index + 1}
+            logo={feature.logo}
             orientation={feature.orientation}
             image={feature.imageUrl}
             resume={feature.resume}
