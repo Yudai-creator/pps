@@ -9,7 +9,7 @@ import HeaderSectin from "../../../components/pages/services/HeaderSectin";
 
 export default function Page({ params }: { params: { service: string } }) {
   return (
-    <div className="relative">
+    <div className="relative bg-slate-50">
       <div className="h-72  flex flex-col z-0  bg-cover bg-center bg-[url('/img/services.png')]"></div>
       <div className="px-7 z-10 -mt-64   ">
         <HeaderPageService slug={params.service} />

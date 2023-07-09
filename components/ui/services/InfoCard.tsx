@@ -11,7 +11,7 @@ const InfoCard = ({ title, resume, image, content }: { title: string; resume: st
       </div>
       <div className="grid grid-cols-5 gap-4 mt-7">
         <div className="col-span-5 lg:col-span-3">
-          <p className="text">
+          <p className="text text-slate-900">
             {content}
           </p>
         </div>

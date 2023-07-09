@@ -8,10 +8,10 @@ export default function TermPage() {
     <div className="bg-white">
       <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
-          <h2 className="text-2xl font-bold leading-10 tracking-tight text-gray-900">
+          <h2 className="text-4xl text-center font-bold leading-10 tracking-tight text-slate-900">
             Terms
           </h2>
-          <dl className="mt-10 prose space-y-6   ">
+          <dl className="mt-10 text-slate-800 prose space-y-6   ">
             These terms and conditions (the "Terms and
             Conditions") govern the use of www.poolpaintscreen.com (the "Site").
             This Site is owned and operated by Pool Paint Screen LLC. This Site
