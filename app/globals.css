@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+
+@font-face {
+  font-family: 'Carlito';
+  src: url('/fonts/Carlito-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Opcional: Si necesitas una variante en negrita */
+
+@font-face {
+  font-family: 'Carlito';
+  src: url('/fonts/Carlito-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@tailwind utilities;
+
+
+.bg-primary {
+  @apply bg-[#FFD050];
+}
+.bg-main-black {
+  @apply bg-[#232536];
+}
+.color-main-black-500 {
+  @apply text-[#6D6E76];
+}
+.color-main-black-700 {
+  @apply text-[#494A53];
+}
+.bg-main-black-500 {
+  @apply bg-[#6D6E76];
+}
+.h2 {
+  @apply color-main-black-700   font-bold text-4xl lg:text-3xl;
+}
+.h3 {
+  @apply color-main-black-500 text-justify text-xl font-medium;
+}
+.h4 {
+  @apply color-main-black-500 text-justify text-lg font-medium;
+}
+
+.btn-main {
+  @apply bg-[#FFD050] px-5 lg:px-7 py-4 text-xl lg:text-2xl font-medium w-56;
+}
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
