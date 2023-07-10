@@ -6,11 +6,14 @@ import { MinusSmallIcon, PlusSmallIcon } from "@heroicons/react/24/outline";
 export default function TermPage() {
   return (
     <div className="bg-white">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
+      <div className="bg-[url('/img/reviews.png')] h-60 relative flex items-center justify-center  bg-cover bg-center">
+        <h2 className="text-4xl text-center font-bold leading-10 tracking-tight text-slate-900">
+          Terms
+        </h2>
+      </div>
+      <div className="mx-auto max-w-7xl px-6 py-10 sm:py-8 lg:px-8 lg:py-8">
         <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
-          <h2 className="text-4xl text-center font-bold leading-10 tracking-tight text-slate-900">
-            Terms
-          </h2>
+          
           <dl className="mt-10 text-slate-800 prose space-y-6   ">
             These terms and conditions (the "Terms and
             Conditions") govern the use of www.poolpaintscreen.com (the "Site").

@@ -4,11 +4,13 @@ import React from "react";
 const PrivacityTermPage = () => {
   return (
     <div className="bg-slate-50">
-      <div className="mx-auto max-w-7xl px-6 py-24 sm:py-32 lg:px-8 lg:py-40">
-        <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
-          <h2 className="text-4xl text-center font-bold leading-10 tracking-tight text-gray-900">
+      <div className="bg-[url('/img/SERVICES_BENEFITS.png')] h-60 relative flex items-center justify-center  bg-cover bg-center">
+        <h2 className="text-4xl text-center font-bold leading-10 tracking-tight text-slate-900">
           Cookies Policy
-          </h2>
+        </h2>
+      </div>
+      <div className="mx-auto max-w-7xl px-6 py-10 sm:py-8 lg:px-8 lg:py-8">
+        <div className="mx-auto max-w-4xl divide-y divide-gray-900/10">
           <dl className="mt-12 space-y-6 divide-y divide-gray-900/10">
             <div>
               {" "}

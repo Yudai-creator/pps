@@ -1,14 +1,16 @@
 import React from "react";
 import Button from "../misc/Button";
 import Image from "next/image";
+import Link from "next/link";
 
 const FeatureCard = (props: {
   title: string;
   resume: string;
   image: string;
   orientation?: string;
+  linkWeb: string;
 }) => {
-  const { title, resume, image, orientation } = props;
+  const { title, resume, image, linkWeb, orientation } = props;
 
   return (
     <>
@@ -30,7 +32,12 @@ const FeatureCard = (props: {
           <h2 className="h2">{title}</h2>
           <p className="h3">{resume}</p>
           <div className="pb-14 flex justify-end">
-          <Button type={'secundary'}   text="Read More" link="#" />
+          <Link
+            href={linkWeb}
+            className="border-slate-800 border-2 px-8 py-2 text-slate-800 font-bold"
+          >
+            Read More
+          </Link>
           </div>
         </div>
         <div

@@ -1,5 +1,6 @@
 import Image from "next/image";
 import React from "react";
+import Link from "next/link";
 
 const TestimonialCard = (props: {
   author_name: string;
@@ -14,10 +15,9 @@ const TestimonialCard = (props: {
       <div className="bg-yellow-300 items-center h-1 w-2/6"></div>
       <div className="h-32 bg-[#FBF6EA] flex space-x-3 px-7 items-center justify-start">
         <Image
-         width={0}
-         height={0}
+         width={50}
+         height={50}
           alt={author_name}
-          className="rounded-full h-14 w-14"
           src={author_image}
         />
         <div className="flex flex-col">
@@ -30,7 +30,12 @@ const TestimonialCard = (props: {
          <p className="h3 p-4">
             {testimonial}
          </p>
-         <p className="p-4 text-yellow-500 font-medium text-xl">Posted on Google</p>
+         <Link
+            href="https://www.google.com/search?hl=en-us&q=Pool+Paint+Screen+LLC"
+            className="p-4 text-yellow-500 font-medium text-xl"
+          >
+            Posted on Google
+          </Link>
       </div>
     </div>
   );

@@ -18,14 +18,13 @@ const HeaderPageService = ({ slug }: { slug: string }) => {
     <div>
       <div className="flex flex-col lg:flex-row space-y-7 z-10 lg:space-y-0 lg:space-x-14 h-56 lg:h-48 items-center justify-start lg:justify-evenly">
         {renderTitle()}
-        <Link
-          href="https://www.forms.poolpaintscreen.com"
-        >
-          {" "}
-          <button className="btn-main sm:self-start lg:self-center">
+          <Link
+            target="_blank"
+            href="https://www.forms.poolpaintscreen.com"
+            className="btn-main text-slate-800 font-bold"
+          >
             Free Estimate
-          </button>
-        </Link>
+          </Link>
       </div>
     </div>
   );

@@ -51,7 +51,8 @@ export const services = [
     headerSection: {
       title: "A pool cage painting and rescreening restoration",
       image:
-        "https://ik.imagekit.io/cluzstudio/pool/IMG_5082_1_oO69FOHdUP.jpg?updatedAt=1684939908344",
+        "/img/IMG_5082 1.png",
+      logo:"https://ik.imagekit.io/u33i3sss0/pps/service_logo__zamCoHTF.png?updatedAt=1689023524462",
       content:
         "is the perfect solution for fixing up your old enclosure and making it look new again. Our team of experienced professionals will work diligently to restore every part of your pool cage, from the painting to the rescreening. We also use the highest quality materials available so you can be sure your pool cage will look great for years to come and can rest assured that your investment is safe. To be able to paint a pool cage the old screen has been removed and replaced for new screens. Because some part of the painting process will damage the screen like deep pressure washing, sanding the metals, and spraying the paint.",
     },
@@ -83,7 +84,8 @@ export const services = [
     headerSection: {
       title: "Does your pool cage need to be rescreened",
       image:
-        "https://ik.imagekit.io/cluzstudio/pool/IMG_0748_2_LN02IChM0_.png?updatedAt=1684939908477",
+        "/img/IMG_0748 2.png",
+      logo:"/img/service_logo_1.png",
       content:
         "Over time, pool cage screens can become worn, torn, or damaged, compromising the comfort, safety, and aesthetics of your outdoor space. Our pool cage rescreening services are here to breathe new life into your pool enclosure, providing a fresh and vibrant environment for you to enjoy.",
     },
@@ -96,6 +98,7 @@ export const materials = [
     title: "Paints we use",
     link: "/materials/pool-cage-paints",
     slug: "materials/pool-cage-paints",
+    logo: "/img/service_logo_2.png",
     href: "/materials/pool-cage-paints",
     featerTitleTop: "Painting and rescreening IS WARRANTED FOR 5 YEARS",
     featuresTitle:
@@ -160,6 +163,7 @@ export const materials = [
     title: "Pool Cage Screens",
     link: "/materials/pool-cage-screens",
     slug: "pool-cage-screens",
+    logo: "/img/service_logo_2.png",
     href: "/materials/pool-cage-screens",
     featerTitleTop: "Painting and rescreening IS WARRANTED FOR 5 YEARS",
     featuresTitle:

@@ -15,10 +15,10 @@ const HeaderSectionMaterial = ({ slug }: { slug: string }) => {
       <BenefitCard
         title={material.headerSection.title}
         image={material.headerSection.image}
+        logo={material.logo}
         resume={material.headerSection.content}
         index={0}
         orientation="left"
-        logo=""
       />
     </div>
   );

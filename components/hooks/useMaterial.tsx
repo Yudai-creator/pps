@@ -5,6 +5,7 @@ import { materials } from "../data/defaults";
 interface Material {
     slug: string;
     title: string;
+    logo: string;
     link: string;
     headerSection: {
       title: string;

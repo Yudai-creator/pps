@@ -52,7 +52,7 @@ const BenefitCard = (props: {
         </div>
       )}
       <div
-        className={`lg:w-3/6 ${
+        className={`lg:w-3/6 relative ${
           orientation === "right" ? "order-2 pl-7" : "order-1 mr-7"
         }`}
       >
@@ -61,9 +61,17 @@ const BenefitCard = (props: {
           height="0"
           sizes="100vw"
           src={image}
-          className="h-full max-h-96 w-full  hidden lg:flex object-cover"
+          className="h-full max-h-96 w-full  hidden lg:flex object-cover relative z-10"
           alt={title}
         />{" "}
+
+        <Image
+          width="60"
+          height="60"
+          className="absolute -right-5 top-28 hidden lg:inline-block z-30 bg-yellow-400 p-3 rounded-br-xl"
+          src={logo}
+          alt="icon"
+        />
       </div>
     </div>
   );

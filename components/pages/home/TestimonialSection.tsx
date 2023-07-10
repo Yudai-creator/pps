@@ -5,30 +5,30 @@ const TestimonialSection = () => {
   const testimonials = [
     {
       id: 1,
-      author_name: "Kristin Watson",
-      author_slug: "Marketing Coordinator",
+      author_name: "Walter Trujillo",
+      author_slug: "5 star review",
       author_image:
-        "https://ik.imagekit.io/cluzstudio/pool/Ellipse_1__2__27NO9zPgK.png?updatedAt=1684939906824",
+        "/img/review_star.png",
       testimonial:
-        "We use Bond-Plex or DTM paint form Sherwin Williams for a durable and long-lasting finish in all our pool cage painting projects.",
+        "Pool Paint Screen completely transformed my Pool cage and screen. They are beyond professional and very hard working. My pool cage is over 20 years old and with paint and new screen it looks new and modern again in just 3 days.",
     },
     {
       id: 2,
-      author_name: "Kristin Watson",
-      author_slug: "Marketing Coordinator",
+      author_name: "David McLaughlin",
+      author_slug: "5 star review",
       author_image:
-        "https://ik.imagekit.io/cluzstudio/pool/Ellipse_1_NcRIqaisp.png?updatedAt=1684939906805",
+      "/img/review_star.png",
       testimonial:
-        "We use Bond-Plex or DTM paint form Sherwin Williams for a durable and long-lasting finish in all our pool cage painting projects.",
+        "My experience with Pool Paint Screen was as they outlined and promised. Our pool cage and screen look brand new. Strongly recommend this company.",
     },
     {
       id: 2,
-      author_name: "Jane Cooper",
-      author_slug: "President of Sales",
+      author_name: "Thomas Popek",
+      author_slug: "5 star review",
       author_image:
-        "https://ik.imagekit.io/cluzstudio/pool/Ellipse_1__1__23dR1aPHv.png?updatedAt=1684939906776",
+      "/img/review_star.png",
       testimonial:
-        "I cannot say enough good things about this company. We bought our house last summer and have been doing extensive remodel work. This was the one company that showed up on time and completed the job on budget and as promised. Eric is very responsive to customer needs, and the quality of their work is outstanding.",
+        "The crew with Pool Paint Screen LLC arrived on time, they did a great job, and left the work site clean and orderly. Would definitely recommend to others. Thank you!",
     },
   ];
 

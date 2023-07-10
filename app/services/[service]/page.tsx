@@ -54,7 +54,7 @@ export default function Page({ params }: { params: { service: string } }) {
         />
       </div>
       <Separator />
-      <div className="px-7 my-7 mb-14 lg:px-48">
+      <div className="px-7 my-7 mb-14 lg:px-48 bg-[url('/img/reviews.png')]">
         <TestimonialSection />
       </div>
       <div className="px-7 my-7 mb-14 lg:px-48">
