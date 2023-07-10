@@ -23,7 +23,7 @@ const FeaturesSection = () => {
     
   return (
     <>
-      <div className="flex flex-col ">
+      <div className="flex flex-col">
         <h2 className="h2">High Quality Material</h2>
         <p className="h3 mt-3">
           At Pool Paint Screen LLC, we understand the value of investing in a

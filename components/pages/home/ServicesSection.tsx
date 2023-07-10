@@ -12,6 +12,7 @@ const ServicesSection = () => {
       resume:
         "Over time, the paint on your pool cage can fade or chip, making it more vulnerable to damage from sun, wind, and rain. Painting the pool cage is a process that will help.",
       orientation: "left",
+      linkWeb: "/services/pool-cage-painting"
     },
     {
       id: 2,
@@ -21,6 +22,7 @@ const ServicesSection = () => {
       resume:
         "Rescreening the pool cage not only helps to keep the area clean but also helps to prevent insects and other pests from entering the pool. Although there are many types of mesh available.",
       orientation: "right",
+      linkWeb: "/services/pool-cage-rescreening"
     },
   ];
 
@@ -44,6 +46,7 @@ const ServicesSection = () => {
             resume={service.resume}
             imageSrc={service.imageSrc}
             orientation={service.orientation}
+            linkWeb={service.linkWeb}
           />
         ))}
       </div>

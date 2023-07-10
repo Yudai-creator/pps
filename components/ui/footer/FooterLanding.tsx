@@ -15,7 +15,7 @@ const FooterLanding = () => {
                 height="0"
                 sizes="150vw"
                 className="h-16 w-auto"
-                src="https://ik.imagekit.io/cluzstudio/pool/logo_lZS6zl1ml.png?updatedAt=1684939730843"
+                src="https://ik.imagekit.io/u33i3sss0/pps/LOGO_HF_02_gc1NBYlaw.png?updatedAt=1689016976789"
                 alt="Logo Pool Paint Screen"
               />
             </Link>
@@ -85,11 +85,13 @@ const FooterLanding = () => {
               Us or Call Us Today!
             </span>
             <div className="flex">
-              <Button
-                type="primary"
-                text="Free Estimate"
-                link="https://www.forms.poolpaintscreen.com"
-              />
+              <Link
+                target="_blank"
+                href="https://www.forms.poolpaintscreen.com"
+                className="btn-main text-slate-800 font-bold"
+              >
+                Free Estimate
+              </Link>
             </div>
           </div>
 
@@ -102,7 +104,7 @@ const FooterLanding = () => {
                 sizes="150vw"
                 className="h-14 w-auto"
                 alt="Logo Pool Paint Screen"
-                src={"/img/bbb.png"}
+                src={"/img/bbb_logo.png"}
               />
             </Link>
             <div className=" mt-7 flex space-x-7  ">
@@ -113,7 +115,7 @@ const FooterLanding = () => {
                   sizes="150vw"
                   className="h-7 w-auto"
                   alt="Logo Pool Paint Screen"
-                  src={"/img/facebook.png"}
+                  src="https://ik.imagekit.io/u33i3sss0/pps/facebook-circle-logo-36_JCqxbN3NT.png?updatedAt=1689017585570"
                 />
               </Link>
               <Link href="https://twitter.com/pps_pool?s=21">
@@ -123,7 +125,7 @@ const FooterLanding = () => {
                   sizes="150vw"
                   className="h-7 w-auto"
                   alt="Logo Pool Paint Screen"
-                  src={"/img/twitter.png"}
+                  src="https://ik.imagekit.io/u33i3sss0/pps/twitter-logo-36_e82TroEUo.png?updatedAt=1689017650057"
                 />
               </Link>
               <Link href="https://www.instagram.com/poolpaintscreenllc">
@@ -133,7 +135,7 @@ const FooterLanding = () => {
                   sizes="150vw"
                   className="h-7 w-auto"
                   alt="Logo Pool Paint Screen"
-                  src={"/img/instagram.png"}
+                  src="https://ik.imagekit.io/u33i3sss0/pps/instagram-logo-36_t21zWKQX4.png?updatedAt=1689017650106"
                 />
               </Link>
               <Link
@@ -146,7 +148,7 @@ const FooterLanding = () => {
                   sizes="150vw"
                   className="h-7 w-auto"
                   alt="Logo Pool Paint Screen"
-                  src={"/img/youtube.png"}
+                  src="https://ik.imagekit.io/u33i3sss0/pps/youtube-logo-36__Z6Gfs2Dl.png?updatedAt=1689017650782"
                 />
               </Link>
               <Link
@@ -158,7 +160,7 @@ const FooterLanding = () => {
                   sizes="150vw"
                   className="h-7 w-auto"
                   alt="Logo Pool Paint Screen"
-                  src={"/img/google.png"}
+                  src="https://ik.imagekit.io/u33i3sss0/pps/google-logo-36_S_9U--Yyp.png?updatedAt=1689017650071"
                 />
               </Link>
             </div>

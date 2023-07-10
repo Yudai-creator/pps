@@ -19,7 +19,7 @@ export default function RootLayout({
       <body className="  bg-[#FAFAFA] relative">
          <HeaderTop />  
         {children}
-      <FooterLanding />  
+        <FooterLanding />  
       </body>
     </html>
   );

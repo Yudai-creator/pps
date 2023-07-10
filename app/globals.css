@@ -45,7 +45,13 @@
 }
 
 .btn-main {
-  @apply bg-[#FFD050] px-5 lg:px-7 py-4 text-xl lg:text-2xl font-medium w-56;
+  @apply bg-[#FFD050] flex items-center justify-center px-4 lg:px-7 py-3 text-xl lg:text-2xl font-semibold sm:w-56 w-48;
+}
+
+.overlay{
+  background: linear-gradient(225deg, rgba(32, 241, 254, 0.25) 0%, rgba(1, 84, 93, 0.48) 54.28%, rgba(32, 33, 38, 0.50) 100%);
+  background-blend-mode: multiply;
+
 }
 
 :root {
@@ -70,4 +76,6 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
+
+  font-family: Carlito, normal;
 }
