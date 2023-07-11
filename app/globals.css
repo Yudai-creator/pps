@@ -48,6 +48,14 @@
   @apply bg-[#FFD050] flex items-center justify-center px-4 lg:px-7 py-3 text-xl lg:text-2xl font-semibold sm:w-56 w-48;
 }
 
+.service-detail{
+  @apply absolute -right-5 top-28 hidden lg:inline-block z-30 bg-yellow-400 p-3 rounded-br-xl
+}
+
+.service-detail-none{
+  @apply hidden
+}
+
 .overlay{
   background: linear-gradient(225deg, rgba(32, 241, 254, 0.25) 0%, rgba(1, 84, 93, 0.48) 54.28%, rgba(32, 33, 38, 0.50) 100%);
   background-blend-mode: multiply;

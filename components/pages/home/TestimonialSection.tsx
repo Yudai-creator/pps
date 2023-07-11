@@ -8,7 +8,7 @@ const TestimonialSection = () => {
       author_name: "Walter Trujillo",
       author_slug: "5 star review",
       author_image:
-        "/img/review_star.png",
+        "https://ik.imagekit.io/u33i3sss0/pps/review_star_rSBEvImap.png?updatedAt=1689030314225",
       testimonial:
         "Pool Paint Screen completely transformed my Pool cage and screen. They are beyond professional and very hard working. My pool cage is over 20 years old and with paint and new screen it looks new and modern again in just 3 days.",
     },
@@ -17,7 +17,7 @@ const TestimonialSection = () => {
       author_name: "David McLaughlin",
       author_slug: "5 star review",
       author_image:
-      "/img/review_star.png",
+      "https://ik.imagekit.io/u33i3sss0/pps/review_star_rSBEvImap.png?updatedAt=1689030314225",
       testimonial:
         "My experience with Pool Paint Screen was as they outlined and promised. Our pool cage and screen look brand new. Strongly recommend this company.",
     },
@@ -26,7 +26,7 @@ const TestimonialSection = () => {
       author_name: "Thomas Popek",
       author_slug: "5 star review",
       author_image:
-      "/img/review_star.png",
+      "https://ik.imagekit.io/u33i3sss0/pps/review_star_rSBEvImap.png?updatedAt=1689030314225",
       testimonial:
         "The crew with Pool Paint Screen LLC arrived on time, they did a great job, and left the work site clean and orderly. Would definitely recommend to others. Thank you!",
     },

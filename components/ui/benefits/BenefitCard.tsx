@@ -2,6 +2,7 @@ import React from "react";
 import Button from "../misc/Button";
 import Image from "next/image";
 
+
 const BenefitCard = (props: {
   title: string;
   resume: string;
@@ -12,6 +13,11 @@ const BenefitCard = (props: {
   link?: string;
 }) => {
   const { title, resume, image, orientation, index, link, logo } = props;
+
+  
+
+
+  // const serviceAlter = router.pathname === '/' ? 'service-detail-none' : 'service-detail';
 
 
   return (
