@@ -26,7 +26,7 @@ export default function Home() {
         <br />
         <Separator />
         <div className="h-60 relative z-0 flex flex-col  bg-cover bg-center bg-[url('/img/SERVICES_BENEFITS.png')]"></div>
-        <div className="px-7 relative -mt-48 my-7 lg:px-48 z-10 ">
+        <div className="relative -mt-48 z-10 ">
           <BenefitsSection />
         </div>
         <br />
@@ -36,7 +36,7 @@ export default function Home() {
           <AboutSection />
         </div>
         <Separator />
-        <div className="px-7 my-7 lg:px-48 bg-[url('/img/reviews.png')]">
+        <div className="px-7 py-7 lg:px-48 bg-[url('/img/reviews.png')]">
           <TestimonialSection />
         </div>
         <Separator />

@@ -53,7 +53,7 @@ export default function HeaderTop() {
   return (
     <header className="bg-main-black z-10">
       <nav
-        className="mx-auto flex max-w-7xl items-center justify-between p-6 lg:px-8"
+        className="lg:mx-8 flex max-w-7xl items-center justify-between p-6 lg:px-8"
         aria-label="Global"
       >
         <div className="flex items-center ">
@@ -78,9 +78,9 @@ export default function HeaderTop() {
             <Bars3Icon className="h-14 w-14 text-white" aria-hidden="true" />
           </button>
         </div>
-        <div className="hidden lg:flex">
-          <div className="flex text-white gap-x-12 items-center">
-            <Popover.Group className="hidden lg:flex lg:gap-x-12">
+        <div className="hidden lg:flex items-center">
+          <div className="flex text-white gap-10 items-center">
+            <Popover.Group className="hidden lg:flex lg:gap-10">
               <Link href="/" className="text-sm font-semibold leading-6  ">
                 Home
               </Link>

@@ -57,7 +57,7 @@
 }
 
 .overlay{
-  background: linear-gradient(225deg, rgba(32, 241, 254, 0.25) 0%, rgba(1, 84, 93, 0.48) 54.28%, rgba(32, 33, 38, 0.50) 100%);
+  background: linear-gradient(222deg, rgba(102, 246, 255, 0.00) 0%, rgba(35, 37, 54, 0.23) 100%);
   background-blend-mode: multiply;
 
 }

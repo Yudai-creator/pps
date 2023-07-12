@@ -15,13 +15,13 @@ const AboutSection = () => {
           services to homeowners throughout the region.
         </p>
       </div>
-      <div className="flex flex-col relative lg:flex-row ">
+      <div className="flex flex-col relative lg:flex-row mt-20">
         <div className=" lg:w-3/5 order-2 lg:order-1">
           <div
             className={` flex flex-col justify-center space-y-3`}
           >
           <div className="bg-[#FFD050] z-0 -ml-4 absolute top-1 right-0 lg:top-2 lg:left-0 h-14 w-14 rounded-full"></div>
-            <h2 className="h2 z-10">We, at Pool Paint Screen LLC</h2>
+            <h2 className="h2 z-10">We at Pool Paint Screen LLC</h2>
             <p className="h3">
               place great emphasis on ensuring complete customer satisfaction.
               Our team works closely with clients throughout the project, to
@@ -32,15 +32,15 @@ const AboutSection = () => {
             </p>
           </div>
         </div>
-        <div className={`lg:ml-14 mt-7 order-1 lg:order-2  lg:w-1/5`}>
+        <div className={`lg:ml-14 mt-1 order-1 lg:order-2  lg:w-1/5`}>
           <Image
             width="0"
             height="0"
             sizes="100vw"
             src={
-              "https://ik.imagekit.io/cluzstudio/Redmi43_xfH1k6EcB?updatedAt=1685313747542"
+              "https://ik.imagekit.io/u33i3sss0/pps/business-building-teamwork-people-concept-260nw-325469345_1_wRJIvW1tO.png?updatedAt=1689190852481"
             }
-            className="h-full lg:scale-100 scale-150 lg:mt-0 mt-14 mb-20 w-auto  object-cover"
+            className="h-full lg:scale-110 scale-150 lg:mt-0 mt-10 mb-20 w-auto  object-cover"
             alt="About Us"
           />
         </div>

@@ -8,7 +8,7 @@ const ServicesSection = () => {
       id: 1,
       title: "Pool Cage Painting and Rescreening",
       imageSrc:
-        "https://ik.imagekit.io/cluzstudio/pool/IMG_5082_1_oO69FOHdUP.jpg?updatedAt=1684939908344",
+        "/img/IMG_5082 1.png",
       resume:
         "Over time, the paint on your pool cage can fade or chip, making it more vulnerable to damage from sun, wind, and rain. Painting the pool cage is a process that will help.",
       orientation: "left",
@@ -18,7 +18,7 @@ const ServicesSection = () => {
       id: 2,
       title: "Pool Cage Rescreening",
       imageSrc:
-        "https://ik.imagekit.io/cluzstudio/pool/IMG_0748_2_LN02IChM0_.png?updatedAt=1684939908477",
+        "/img/IMG_0748 2.png",
       resume:
         "Rescreening the pool cage not only helps to keep the area clean but also helps to prevent insects and other pests from entering the pool. Although there are many types of mesh available.",
       orientation: "right",

@@ -35,7 +35,7 @@ const TestimonialSection = () => {
   return (
     <div className="mx-auto">
       <div className="flex flex-col items-center ">
-        <h2 className="h2 text-center">What our custumer say about us?</h2>
+        <h2 className="h2 text-center bg-white">What our costumers say about us?</h2>
       </div>
       <div className="grid grid-cols-1 lg:grid-cols-9">
         <div className="col-span-1"></div>

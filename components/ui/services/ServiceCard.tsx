@@ -16,10 +16,10 @@ const ServiceCard = (props: {
     <div className="flex flex-col lg:flex-row z-10" style={{  alignItems: "center" }}>
       <div className={` ${orientation === "left"  ? 'lg:w-1/3 order-1' : 'lg:w-1/3 order-1 lg:order-2' } `}>
         <Image
-          className="object-cover my-7 scale-[112%]  h-full w-full"
+          className="object-cover my-7 scale-[125%]  h-full w-full"
           src={imageSrc}
-          width={400}
-          height={400}
+          width={800}
+          height={800}
           alt={title}
         />
       </div>

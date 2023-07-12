@@ -32,7 +32,7 @@ const BenefitCard = (props: {
       />
       <div className="bg-primary"></div>
       <div
-        className={`flex flex-col justify-center space-y-3 ${
+        className={`flex flex-col justify-center space-y-3 p-10 ${
           orientation === "right" ? "order-1" : "order-2"
         } lg:w-3/6 relative`}
       >
@@ -59,7 +59,7 @@ const BenefitCard = (props: {
       )}
       <div
         className={`lg:w-3/6 relative ${
-          orientation === "right" ? "order-2 pl-7" : "order-1 mr-7"
+          orientation === "right" ? "order-2" : "order-1"
         }`}
       >
         <Image
@@ -71,13 +71,13 @@ const BenefitCard = (props: {
           alt={title}
         />{" "}
 
-        <Image
+        {/* <Image
           width="60"
           height="60"
           className="absolute -right-5 top-28 hidden lg:inline-block z-30 bg-yellow-400 p-3 rounded-br-xl"
           src={logo}
           alt="icon"
-        />
+        /> */}
       </div>
     </div>
   );

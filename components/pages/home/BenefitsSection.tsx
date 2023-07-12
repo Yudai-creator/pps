@@ -34,8 +34,8 @@ const BenefitsSection = () => {
 
   return (
     <div>
-      <div className="flex flex-col ">
-        <h2 className="h2">Benefits Of A Pool Cage Restoration</h2>
+      <div className="flex flex-col lg:px-48 px-10">
+        <h2 className="h2">Benefits of a Pool Cage Restoration</h2>
         <p className="h3 mt-3">
           Are you considering a pool cage restoration but unsure of its
           benefits? Discover how a pool cage restoration can improve the
@@ -43,7 +43,7 @@ const BenefitsSection = () => {
           more enjoyable to use for years to come.
         </p>
       </div>
-      <div className="flex mb-5 space-y-32 lg:space-y-7  mt-32 lg:mt-14 flex-col">
+      <div className="flex space-y-32 lg:space-y-0  mt-32 lg:mt-14 flex-col">
         {benefits.map((feature: any, index: number) => (
           <BenefitCard
             index={index + 1}
