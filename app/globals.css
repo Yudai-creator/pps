@@ -86,4 +86,5 @@ body {
     rgb(var(--background-start-rgb));
 
   font-family: Carlito, normal;
+  overflow-x: hidden;
 }

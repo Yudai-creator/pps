@@ -22,8 +22,8 @@ import {
 const terms = [
   { name: "Terms and Conditions", href: "/terms" },
   { name: "Cookies Policy", href: "/privacity" },
-  // { name: "Warranty of Service", href: "#" },
-  // { name: "Financing Program", href: "#" },
+  { name: "Warranty of Service", href: "#" },
+  { name: "Financing Program", href: "#" },
 ];
 
 const contacts = [

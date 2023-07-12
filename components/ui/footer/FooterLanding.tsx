@@ -71,8 +71,8 @@ const FooterLanding = () => {
               <div className="text-gray-100 flex flex-col">
                 <Link href="/terms"> Terms and Conditions</Link>
                 <Link href="/privacity">Cookies Policy</Link>
-                {/* <Link href="$">Warranty of Service</Link>
-                <Link href="$">Financing Program</Link> */}
+                <Link href="$">Warranty of Service</Link>
+                <Link href="$">Financing Program</Link>
               </div>
             </div>
           </div>

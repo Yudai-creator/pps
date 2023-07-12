@@ -4,7 +4,7 @@ export const services = [
     title: "Pool Cage Painting and Rescreening",
     link: "#",
     slug: "pool-cage-painting",
-    logo: "/img/service1-logo.png",
+    logo: "https://ik.imagekit.io/u33i3sss0/pps/service_logo__zamCoHTF.png?updatedAt=1689023524462",
     href: "/services/pool-cage-painting",
     steps: [
       {
@@ -51,7 +51,7 @@ export const services = [
     headerSection: {
       title: "A pool cage painting and rescreening restoration",
       image:
-        "/img/IMG_5082 1.png",
+        "https://ik.imagekit.io/u33i3sss0/pps/IMG_5082_1__rU6lF6M3.png?updatedAt=1689018284334",
       logo:"https://ik.imagekit.io/u33i3sss0/pps/service_logo__zamCoHTF.png?updatedAt=1689023524462",
       content:
         "is the perfect solution for fixing up your old enclosure and making it look new again. Our team of experienced professionals will work diligently to restore every part of your pool cage, from the painting to the rescreening. We also use the highest quality materials available so you can be sure your pool cage will look great for years to come and can rest assured that your investment is safe. To be able to paint a pool cage the old screen has been removed and replaced for new screens. Because some part of the painting process will damage the screen like deep pressure washing, sanding the metals, and spraying the paint.",
@@ -62,7 +62,7 @@ export const services = [
     title: "Pool Rescreening",
     link: "#",
     slug: "pool-cage-rescreening",
-    logo: "/img/service2-logo.png",
+    logo: "https://ik.imagekit.io/u33i3sss0/pps/service_logo_1_FZsFnUngS.png?updatedAt=1689023524333",
     href: "/services/pool-cage-rescreening",
     serviceDataTitle: "safeguarding them against the damaging effects of weather and other environmental factors. Over time, exposure to sunlight, rain, and humidity can cause aluminum to corrode and deteriorate, compromising the structural integrity of the pool cage. By applying a high-quality paint like Bond-Plex or DTM specifically formulated for outdoor use, you create a barrier that shields the aluminum from these elements.",
     serviceDtaa:"",
@@ -84,8 +84,8 @@ export const services = [
     headerSection: {
       title: "Does your pool cage need to be rescreened",
       image:
-        "/img/IMG_0748 2.png",
-      logo:"/img/service_logo_1.png",
+        "https://ik.imagekit.io/u33i3sss0/pps/IMG_0748_2_0Pb-AA7e8.png?updatedAt=1689030367953",
+      logo:"https://ik.imagekit.io/u33i3sss0/pps/service_logo_1_FZsFnUngS.png?updatedAt=1689023524333",
       content:
         "Over time, pool cage screens can become worn, torn, or damaged, compromising the comfort, safety, and aesthetics of your outdoor space. Our pool cage rescreening services are here to breathe new life into your pool enclosure, providing a fresh and vibrant environment for you to enjoy.",
     },
@@ -98,7 +98,7 @@ export const materials = [
     title: "Paints we use",
     link: "/materials/pool-cage-paints",
     slug: "materials/pool-cage-paints",
-    logo: "/img/service_logo_2.png",
+    logo: "https://ik.imagekit.io/u33i3sss0/pps/service_logo_2_a5UTLiBOC.png?updatedAt=1689023951515",
     href: "/materials/pool-cage-paints",
     featerTitleTop: "Painting and rescreening IS WARRANTED FOR 5 YEARS",
     featuresTitle:
@@ -163,7 +163,7 @@ export const materials = [
     title: "Pool Cage Screens",
     link: "/materials/pool-cage-screens",
     slug: "pool-cage-screens",
-    logo: "/img/service_logo_2.png",
+    logo: "https://ik.imagekit.io/u33i3sss0/pps/service_logo_2_a5UTLiBOC.png?updatedAt=1689023951515",
     href: "/materials/pool-cage-screens",
     featerTitleTop: "Painting and rescreening IS WARRANTED FOR 5 YEARS",
     featuresTitle:

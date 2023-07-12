@@ -71,13 +71,13 @@ const BenefitCard = (props: {
           alt={title}
         />{" "}
 
-        {/* <Image
-          width="60"
-          height="60"
-          className="absolute -right-5 top-28 hidden lg:inline-block z-30 bg-yellow-400 p-3 rounded-br-xl"
+        <Image
+          width="70"
+          height="70"
+          className="absolute -right-5 top-28 hidden lg:inline-block z-30"
           src={logo}
           alt="icon"
-        /> */}
+        />
       </div>
     </div>
   );
